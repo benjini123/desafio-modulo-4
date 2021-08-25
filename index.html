@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+    </style>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+    </style>
+
+    <script defer src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+
+    <script async src="./components/components.js"></script>
+    <link rel="stylesheet" href="./components/components.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <section class="section-one">
+        <header class="header-index"></header>
+
+        <div class="sec-one__presentation">
+          <h1 class="title">Hola</h1>
+          <h2 class="subtitle montserrat">Soy Benja</h2>
+        </div>
+      </section>
+
+      <section class="main">
+        <img src="./media/person.png" alt="" class="main__img" />
+        <div class="main__presentation">
+          <h2 class="main__presentation-title montserrat">Soy Benja</h2>
+          <p class="main__presentation-text poppins">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            repellat id accusamus adipisci quas quisquam suscipit, harum nihil
+            vero! Cupiditate aliquam non aliquid error omnis, aperiam unde. A,
+            nam id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+            quibusdam omnis non dignissimos, ratione autem vel cumque, expedita
+            vero velit enim minus labore excepturi dolor rerum unde ex saepe
+            doloribus.
+          </p>
+        </div>
+      </section>
+
+      <section class="services poppins">
+        <div class="services__container">
+          <h2 class="services__title montserrat">Mis servicios</h2>
+          <div class="services__services"></div>
+          <template id="services__service-template">
+            <div class="services__service-box">
+              <img
+                src="./media/compu.png"
+                class="services__service-box-image"
+              />
+              <div>
+                <h3 class="services__service-box-title">Hago Cosas</h3>
+                <p class="services__service-box-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet
+                  eveniet quos cupiditate obcaecati deleniti optio rerum, quae
+                  voluptate eligendi autem sed rem corrupti natus inventore
+                  expedita aliquam ratione doloremque. Provident.
+                </p>
+              </div>
+            </div>
+          </template>
+        </div>
+      </section>
+
+      <section class="contact-index"></section>
+
+      <section class="footer-index"></section>
+    </div>
+  </body>
+</html>

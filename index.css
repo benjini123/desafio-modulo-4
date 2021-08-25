@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.montserrat {
+  font-family: "Montserrat";
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+}
+
+/* SECTION ONE */
+
+.section-one {
+  position: relative;
+  height: 616px;
+  background-image: url(./media/sec-1-mobile.png);
+  width: auto;
+  color: white;
+  padding: 20px;
+}
+
+@media (min-width: 967px) {
+  .section-one {
+    background-image: url(./media/sec-1-dsk.png);
+  }
+}
+
+.sec-one__presentation {
+  max-width: 314px;
+  text-align: center;
+  margin: auto;
+  margin-top: 159px;
+}
+
+/* SECTION TWO // MAIN */
+
+.main {
+  background-color: #141414;
+  color: white;
+  height: 538px;
+  display: flex;
+  padding: 55px 31px;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1140px;
+  margin: auto;
+}
+
+@media (min-width: 967px) {
+  .main {
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 33% 66%;
+    gap: 50px;
+    align-items: center;
+  }
+}
+
+.main__img {
+  display: none;
+}
+
+@media (min-width: 967px) {
+  .main__img {
+    display: inherit;
+  }
+}
+
+.main__presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 290px;
+  margin: auto;
+  max-width: 610px;
+}
+
+@media (min-width: 967px) {
+  .main__presentation {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+
+.main__presentation-title {
+  text-align: center;
+}
+
+@media (min-width: 967px) {
+  .main__presentation-title {
+    text-align: start;
+  }
+}
+
+/* SECTION THREE // SERVICES */
+
+.services {
+  margin: 0 auto;
+  padding: 69px 52px;
+}
+
+.services__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  /* height: 100%; */
+  /* width: 100%; */
+  margin: 0;
+}
+
+.services__services {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  /* align-items: center; */
+  justify-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+@media (min-width: 967px) {
+  .services__services {
+    justify-content: space-between;
+  }
+}
+
+.services__service-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  max-width: 262px;
+  gap: 20px;
+}
