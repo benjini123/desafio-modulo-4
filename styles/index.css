@@ -37,8 +37,9 @@ body {
 .section-one {
   position: relative;
   height: 616px;
-  background-image: url(/media/mobile.png);
-  background-color: #141414;
+  background-image: url(https://s3-alpha-sig.figma.com/img/9bf7/d9cf/a4d5cbfa93152e4a3a7f5d271ff4abc8?Expires=1630886400&Signature=WovbMhTGKgDgh37b01eOlslzjvJ3RL2hcPSD1oK3mFPRsMjePFTNu93G-6nEDWoRhnu0cT8Qmj0tng6LQNtp3J4Ofmr9yp1VuFw1oLv~LYakAWP027xIGy2Hp2H9c-iHPZfWB31Y-ThDSSWVXr8yno6U1-phX52HHnfaunmD8cbEuyan9eKpDE5oEeykSHR4wdJiFji~IOcsKFQ8s3VmwcUp8F5gEeWN3N44KJTo3g4P7DsgifZbPH5BehOz1~4SplMT5rR-sZ93N7sErLwVlf9NkyldddNzoO088EbYXAN7Dd5hz24xU1jEPRkWf241NejA4-Nsajwe6yeuA0frUw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-position: center;
+  background-size: cover;
   width: auto;
   color: white;
   padding: 20px;
@@ -46,7 +47,6 @@ body {
 
 @media (min-width: 967px) {
   .section-one {
-    background-image: url(/media/dsk.png);
     padding: 28px 80px;
   }
 }
