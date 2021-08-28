@@ -2,8 +2,6 @@ function addService(params = {}) {
   const template = document.querySelector("#services__service-template");
   const contenedor = document.querySelector(".services__services");
 
-  console.log(template);
-
   template.content.querySelector(".services__service-box-title").textContent =
     params.title;
   template.content.querySelector(

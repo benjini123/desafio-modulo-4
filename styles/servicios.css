@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+/* Section One */
+
+.sec-one {
+  background-color: black;
+  color: white;
+  font-family: "Poppins";
+  padding: 20px;
+}
+
+@media (min-width: 967px) {
+  .sec-one {
+    background-image: linear-gradient(
+      to bottom right,
+      #958c40 24.5%,
+      #9c00d2cc 80%
+    );
+    height: 654px;
+    padding: 54px 86px;
+  }
+}
+
+.sec-one__container {
+  margin: 0;
+}
+
+.sec-one__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+@media (min-width: 967px) {
+  .sec-one__main {
+    justify-content: flex-start;
+  }
+}
+
+.sec-one__title {
+  margin: 0;
+  padding-top: 103px;
+}
+
+@media (min-width: 967px) {
+  .sec-one__title {
+    padding-top: 163px;
+  }
+}
+
+/* MAIN */
+
+.main {
+  padding: 100px 42px 38px 42px;
+  background-color: black;
+}
+
+@media (min-width: 967px) {
+  .main {
+    padding: 100px 92px 166px 92px;
+  }
+}
+
+.main__work {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+@media (min-width: 967px) {
+  .main__work {
+    justify-content: space-between;
+  }
+}
+
+.main__work-card {
+  color: white;
+  font-family: "Poppins";
+  max-width: 290px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}

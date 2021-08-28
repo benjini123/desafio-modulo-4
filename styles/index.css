@@ -37,7 +37,7 @@ body {
 .section-one {
   position: relative;
   height: 616px;
-  background-image: url(./media/sec-1-mobile.png);
+  background-image: url(/media/sec-1-mobile.png);
   width: auto;
   color: white;
   padding: 20px;
@@ -45,7 +45,8 @@ body {
 
 @media (min-width: 967px) {
   .section-one {
-    background-image: url(./media/sec-1-dsk.png);
+    background-image: url(/media/sec-1-dsk.png);
+    padding: 28px 80px;
   }
 }
 
@@ -161,4 +162,10 @@ body {
   width: 100%;
   max-width: 262px;
   gap: 20px;
+}
+
+/* contact */
+
+.contact-index {
+  background-color: #141414;
 }

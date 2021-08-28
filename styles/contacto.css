@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.section-one {
+  background-color: black;
+  padding: 0px 20px;
+}
+
+@media (min-width: 967px) {
+  .section-one {
+    background: linear-gradient(to bottom right, #408195 24.5%, #00d287cc 80%);
+    padding: 32px 86px;
+  }
+}
+
+.contact__title {
+  font-size: 48px;
+  width: 100%;
+}
+
+.contact__container {
+  gap: 70px;
+}
